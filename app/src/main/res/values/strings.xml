@@ -9,4 +9,11 @@
     <string name="txtPublicacion1">Se busca dueño de la mascota xxxxxxxxx. Encontrado en la calle xxxx al yyyy. Actualmente esta resguardado en el domicilio xxxx altura yyyy. Dejo datos de contacto: Tel: xxx-xxxx-xxx</string>
     <string name="txtUsuario2">Usuario 2</string>
     <string name="txtPublicacion2">Se busca dueño de la mascota xxxxxxxxx. Encontrado en la calle xxxx al yyyy. Actualmente esta resguardado en el domicilio xxxx altura yyyy. Dejo datos de contacto: Tel: xxx-xxxx-xxx</string>
+    <string name="btnAgregarPublicacion">Publicar</string>
+    <string name="btnVerDetalle">Ver Detalle</string>
+    <string name="txtSubirImagen">------Imagen Mascota------</string>
+    <string name="txtUsuario1Adopcion">Usuario 10</string>
+    <string name="txtPublicacionAdopcion">Se desea dar en adopcion a pequeña mascota rescatada de la calle. Los datos para contancto son los siguientes: Tel: yyy-yyyyyyy</string>
+    <string name="txtUsuario2Adopcion">Usuario 11</string>
+    <string name="txtUsuario3Adopcion">Usuario8</string>
 </resources>
