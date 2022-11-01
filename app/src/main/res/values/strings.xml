@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">perdidos-encontrados-android-nuevo</string>
+    <string name="tabPerdidos">Perdidos</string>
+    <string name="tabEncontrados">Encontrados</string>
+    <string name="tabAdopcion">En Adopcion</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txtUsuario">Usuario 1</string>
+    <string name="txtPublicacion1">Se busca dueño de la mascota xxxxxxxxx. Encontrado en la calle xxxx al yyyy. Actualmente esta resguardado en el domicilio xxxx altura yyyy. Dejo datos de contacto: Tel: xxx-xxxx-xxx</string>
+    <string name="txtUsuario2">Usuario 2</string>
+    <string name="txtPublicacion2">Se busca dueño de la mascota xxxxxxxxx. Encontrado en la calle xxxx al yyyy. Actualmente esta resguardado en el domicilio xxxx altura yyyy. Dejo datos de contacto: Tel: xxx-xxxx-xxx</string>
+</resources>
