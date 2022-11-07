@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">perdidos-encontrados-android-nuevo</string>
+    <string name="app_name">Perdidos y Encontrados</string>
     <string name="tabPerdidos">Perdidos</string>
     <string name="tabEncontrados">Encontrados</string>
     <string name="tabAdopcion">En Adopcion</string>
@@ -16,4 +16,7 @@
     <string name="txtPublicacionAdopcion">Se desea dar en adopcion a pequeña mascota rescatada de la calle. Los datos para contancto son los siguientes: Tel: yyy-yyyyyyy</string>
     <string name="txtUsuario2Adopcion">Usuario 11</string>
     <string name="txtUsuario3Adopcion">Usuario8</string>
+    <string name="btnEditar">Editar</string>
+    <string name="btnUsuario1Encontrado">Usuario 20</string>
+    <string name="txtPublicacionEncontrado1">Se encontro mascota xxxx en la zona de yyyyyy. Dejo contacto personal para cualquier consulta: Tel: yyy-yyyyyyy</string>
 </resources>

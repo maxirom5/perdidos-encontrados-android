@@ -10,7 +10,9 @@
     <ScrollView
         android:id="@+id/svAdopcion"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp">
 
         <LinearLayout
             android:id="@+id/lyPrincipalAdopcion"
@@ -39,7 +41,7 @@
 
                         <LinearLayout
                             android:id="@+id/lyUsuario1Adopcion"
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:orientation="horizontal">
 
@@ -47,17 +49,32 @@
                                 android:id="@+id/imgUsuario1Adopcion"
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
-                                android:layout_weight="1"
                                 android:src="@android:drawable/ic_menu_mylocation" />
 
                             <TextView
                                 android:id="@+id/txtUsuario1Adopcion"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_weight="1"
+                                android:layout_gravity="center"
                                 android:text="@string/txtUsuario1Adopcion"
                                 android:textSize="16sp"
                                 android:textStyle="bold" />
+
+                            <ImageButton
+                                android:id="@+id/imgBtnEditarAdopcion1"
+                                android:layout_width="30sp"
+                                android:layout_height="30sp"
+                                android:layout_marginLeft="50sp"
+                                android:backgroundTint="#FFFFFF"
+                                android:src="@android:drawable/ic_menu_edit" />
+
+                            <ImageButton
+                                android:id="@+id/imgBtnEliminarAdopcion1"
+                                android:layout_width="30sp"
+                                android:layout_height="30sp"
+                                android:layout_marginLeft="10sp"
+                                android:backgroundTint="#FFFFFF"
+                                android:src="@android:drawable/ic_menu_delete" />
 
                         </LinearLayout>
 
@@ -81,26 +98,15 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:src="@android:drawable/ic_menu_gallery" />
+                                android:src="@android:drawable/ic_menu_gallery"
+                                app:srcCompat="@mipmap/icon_original" />
                         </LinearLayout>
 
                         <LinearLayout
                             android:id="@+id/lyBtnOpciones1Adopcion"
-                            android:layout_width="match_parent"
+                            android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:orientation="horizontal">
-
-                            <ImageButton
-                                android:id="@+id/imgBtnEditarAdopcion1"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@android:drawable/ic_menu_edit" />
-
-                            <ImageButton
-                                android:id="@+id/imgBtnEliminarAdopcion1"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@android:drawable/ic_menu_delete" />
 
                             <Button
                                 android:id="@+id/btnVerDetalleAdopcion1"
@@ -152,6 +158,22 @@
                                 android:text="@string/txtUsuario2Adopcion"
                                 android:textSize="16sp"
                                 android:textStyle="bold" />
+
+                            <ImageButton
+                                android:id="@+id/imgBtnEditarAdopcion2"
+                                android:layout_width="30sp"
+                                android:layout_height="30sp"
+                                android:layout_marginLeft="50sp"
+                                android:backgroundTint="#FFFFFF"
+                                android:src="@android:drawable/ic_menu_edit" />
+
+                            <ImageButton
+                                android:id="@+id/imgBtnEliminarAdopcion2"
+                                android:layout_width="30sp"
+                                android:layout_height="30sp"
+                                android:layout_marginLeft="10sp"
+                                android:backgroundTint="#FFFFFF"
+                                android:src="@android:drawable/ic_menu_delete" />
                         </LinearLayout>
 
                         <TextView
@@ -173,33 +195,22 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:src="@android:drawable/ic_menu_gallery" />
+                                android:src="@android:drawable/ic_menu_gallery"
+                                tools:srcCompat="@mipmap/icon_original" />
                         </LinearLayout>
 
                         <LinearLayout
                             android:id="@+id/lyBtnOpciones2Adopcion"
-                            android:layout_width="match_parent"
+                            android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:orientation="horizontal">
-
-                            <ImageButton
-                                android:id="@+id/imgBtnEditarAdopcion2"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@android:drawable/ic_menu_edit" />
-
-                            <ImageButton
-                                android:id="@+id/imgBtnEliminarAdopcion2"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@android:drawable/ic_menu_delete" />
 
                             <Button
                                 android:id="@+id/btnVerDetalleAdopcion2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="Button" />
+                                android:text="@string/btnVerDetalle" />
                         </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
@@ -243,6 +254,22 @@
                                 android:text="@string/txtUsuario3Adopcion"
                                 android:textSize="16sp"
                                 android:textStyle="bold" />
+
+                            <ImageButton
+                                android:id="@+id/imgBtnEditar3Adopcion"
+                                android:layout_width="30sp"
+                                android:layout_height="30sp"
+                                android:layout_marginLeft="50sp"
+                                android:backgroundTint="#FFFFFF"
+                                android:src="@android:drawable/ic_menu_edit" />
+
+                            <ImageButton
+                                android:id="@+id/imgBtnEliminar3Adopcion"
+                                android:layout_width="30sp"
+                                android:layout_height="30sp"
+                                android:layout_marginLeft="10sp"
+                                android:backgroundTint="#FFFFFF"
+                                android:src="@android:drawable/ic_menu_delete" />
                         </LinearLayout>
 
                         <TextView
@@ -265,26 +292,15 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:layout_weight="1"
-                                android:src="@android:drawable/ic_menu_gallery" />
+                                android:src="@android:drawable/ic_menu_gallery"
+                                app:srcCompat="@mipmap/icon_original" />
                         </LinearLayout>
 
                         <LinearLayout
                             android:id="@+id/lyBtnOpciones3Adopcion"
-                            android:layout_width="match_parent"
+                            android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:orientation="horizontal">
-
-                            <ImageButton
-                                android:id="@+id/imgBtnEditar3Adopcion"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@android:drawable/ic_menu_edit" />
-
-                            <ImageButton
-                                android:id="@+id/imgBtnEliminar3Adopcion"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@android:drawable/ic_menu_delete" />
 
                             <Button
                                 android:id="@+id/btnVerDetalle3Adopcion"
@@ -304,7 +320,8 @@
         android:id="@+id/floatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="end"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="5sp"
         android:clickable="true"
         android:src="@android:drawable/ic_input_add" />
 </FrameLayout>
